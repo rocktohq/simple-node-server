@@ -8,11 +8,12 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 app.use(exprss.json());
 
-// Usr
+// Users
 const users = [
   { id: 1, name: "Monir", email: "monir@gmail.com" },
   { id: 2, name: "Saidul", email: "saidul@gmail.com" },
-  { id: 3, name: "Mursalin", email: "mursalin@gmail.com" }
+  { id: 3, name: "Mursalin", email: "mursalin@gmail.com" },
+  { id: 4, name: "Akash", email: "akash@gmail.com" }
 ];
 
 // Home route
